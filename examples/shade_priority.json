@@ -1,0 +1,21 @@
+{
+  "graph": "../data/walking.graphml",
+  "rasters": {
+    "tree_cover": {
+      "path": "../data/predicted_trees.tif",
+      "mode": "binary",
+      "buffer_m": 10,
+      "min_coverage": 0.98
+    }
+  },
+  "edge_features": "../data/normalized_context.csv",
+  "model": {
+    "speed_mps": 1.2,
+    "canopy_weight": 6,
+    "canopy_power": 2,
+    "heat_interaction": 1,
+    "heat_weight": 0,
+    "traffic_weight": 1
+  },
+  "output": "../outputs/shade_priority"
+}

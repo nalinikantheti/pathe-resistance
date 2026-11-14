@@ -1,0 +1,17 @@
+{
+  "boundary": "../data/boundary.geojson",
+  "buffer_m": 500,
+  "rasters": {
+    "tree_cover": {
+      "path": "../data/predicted_trees.tif",
+      "mode": "binary",
+      "buffer_m": 10,
+      "min_coverage": 0.98
+    }
+  },
+  "model": {
+    "speed_mps": 1.2,
+    "canopy_weight": 1.0
+  },
+  "output": "../outputs/area"
+}
