@@ -36,6 +36,15 @@ pathe-resistance demo --output demo-with-map --map
 
 Open `demo-with-map/results/map.html`. Viewing its basemap/JavaScript needs internet. Use a fresh demo directory for each run.
 
+For the quickstart notebook in VS Code, install notebook support **inside this checkout's virtual environment** and register a named kernel:
+
+```bash
+python -m pip install '.[notebook]'
+python -m ipykernel install --user --name pathe-resistance --display-name "Python (PathéResistance)"
+```
+
+Open `examples/quickstart.ipynb`, click **Select Kernel → Select Another Kernel → Jupyter Kernel**, then choose **Python (PathéResistance)**. Alternatively, select this checkout's `.venv/bin/python` under **Python Environments**. An existing `myenv`, EmPath kernel or global Python may not contain the package. The notebook extra includes a Jupyter server for VS Code installations that need one.
+
 ## Use your own area
 
 Copy [examples/area.json](examples/area.json), update its paths, then run:

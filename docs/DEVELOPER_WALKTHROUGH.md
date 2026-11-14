@@ -23,6 +23,15 @@ python -m build
 
 The current suite contains 23 tests. CI runs those tests, lint, packaging and the map demo on Python 3.11–3.13. The suite validates deterministic computational behavior, not real-world pedestrian access or segmentation accuracy.
 
+To run `examples/quickstart.ipynb` in VS Code, also install `'.[notebook]'` and register its kernel from the activated environment:
+
+```bash
+python -m pip install '.[notebook]'
+python -m ipykernel install --user --name pathe-resistance --display-name "Python (PathéResistance)"
+```
+
+Choose **Python (PathéResistance)** in the notebook's kernel picker. This must be the new checkout's Python, rather than an unrelated existing environment. Installing the core package alone does not install notebook/kernel support.
+
 ## 2. Understand the offline example
 
 ```bash

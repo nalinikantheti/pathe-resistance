@@ -5,6 +5,7 @@
 - Add a developer walkthrough from a clean clone to a Fremont application.
 - Use an OpenStreetMap inspection basemap without a provider API key.
 - Ignore the documented map demo and geocoding cache outputs.
+- Include Jupyter server support in the notebook extra and document selecting the checkout's kernel.
 
 ## 0.1.0
 
