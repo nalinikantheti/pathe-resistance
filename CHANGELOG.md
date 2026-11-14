@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- Add a developer walkthrough from a clean clone to a Fremont application.
+- Use an OpenStreetMap inspection basemap without a provider API key.
+- Ignore the documented map demo and geocoding cache outputs.
+
 ## 0.1.0
 
 - Extract a standalone, configurable walking graph and GeoAI resistance engine from EmPath.

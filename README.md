@@ -12,6 +12,8 @@ Boundary / GraphML → walking graph → GeoAI raster samples → resistance cos
 
 This is an early research toolkit. Tree adjacency is a canopy proxy, not measured shade. Resistance is an explicit scenario, not a prediction of fatigue, safety or actual travel time.
 
+**New to the project?** Follow the [developer walkthrough](docs/DEVELOPER_WALKTHROUGH.md): clone → test → offline demo → a small Fremont graph → your own GeoAI inputs → a user-facing application. It explains what the engine provides and what you still need to build.
+
 ## Try it in five minutes
 
 Python 3.11+ is required. From this repository:

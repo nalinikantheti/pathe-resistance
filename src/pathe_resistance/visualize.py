@@ -15,7 +15,7 @@ def save_map(edges, path, *, boundary=None, routes=None):
     bounds = data.total_bounds
     view = folium.Map(
         location=[(bounds[1] + bounds[3]) / 2, (bounds[0] + bounds[2]) / 2],
-        tiles="CartoDB positron",
+        tiles="OpenStreetMap",
         prefer_canvas=True,
     )
 
