@@ -2,7 +2,7 @@
 
 **Turn a walking graph and GeoAI rasters into an inspectable, environmentally weighted routing network.**
 
-PathéResistance is the reusable engine extracted from [EmPath](https://github.com/nalinikantheti/EmPath). Bring a boundary, an OpenStreetMap graph, and your own georeferenced tree predictions. Get edge features, explicit resistance costs, and comparable routes back. Replace the city, imagery, model or weights without editing the package.
+PathéResistance is the reusable engine that was used to create [EmPath](https://github.com/nalinikantheti/EmPath). Bring a boundary, an OpenStreetMap graph, and your own georeferenced tree predictions. Get edge features, explicit resistance costs, and comparable routes back. Replace the city, imagery, model or weights without editing the package.
 
 ```text
 Boundary / GraphML → walking graph → GeoAI raster samples → resistance costs → routes
